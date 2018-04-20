@@ -7,8 +7,6 @@ Export your Application Files from Dashboard.
 ```bash
 $ cd ./packages
 $ git clone git@github.com:biplobice/addon_simple_file_export.git simple_file_export
-$ cd simple_file_export
-$ composer install
-$ cd ../../
+$ cd ../
 $ ./concrete/bin/concrete5 c5:package-install simple_file_export
 ```
